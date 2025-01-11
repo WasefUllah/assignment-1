@@ -24,7 +24,7 @@
     background-color: #F7EBCF;
 }
 body{
-    background-color: #F1F1F3;
+    background-color: #cdcdda;
 }
 header{
     display: flex;
@@ -83,12 +83,7 @@ main{
 .banner-image{
     padding: 30px 10px;
 }
-/* .banner{
-    margin : 10
-} */
-
 /* vision */
-
 .vision_container{
     
 }
@@ -127,4 +122,48 @@ margin: 10px 0px;
     border: none;    
     color: white;
     font-weight: 800;
+}
+
+/* recent news */
+.recentnewscontainer{
+    margin-top: 10px;
+
+}
+.info{
+    padding: 10px;
+}
+.recentboxcontainer{
+    
+}
+.recentbox{
+    background-color: white;
+    border-radius: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 15px;
+}
+.recentnewsdescription{
+    margin-top: 15px;
+    font-size: 20px;
+}
+.earthpic_container{
+
+    padding: 30px;
+}
+.earthpic{
+    border-radius: 10px;
+}
+.maininfo{
+    margin: 15px;
+    
+}
+
+.aljajira{
+    margin: 10px 0;
+}
+.recentdescription{
+    margin: 10px 0;
+    font-size: 18px;
+
 }
