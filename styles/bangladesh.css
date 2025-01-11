@@ -226,9 +226,11 @@ height: 50px;
 width: 850px;
 }
 .newsletter{
+    margin-top: 25px;
     text-align: center;
     border-radius: 10px;
-    padding: 50px 30px;
+    padding: 10px 30px;
+    margin-bottom: 25px;
 }
 .newlettertitle{
     margin-bottom: 20px;
@@ -254,7 +256,19 @@ width: 850px;
 }
 .newsletterbutton{
     padding: 15px 10px;
+    background-color: darkgreen;
     margin-inline: 0;
     border-bottom-right-radius: 10px;
     border-top-right-radius: 10px;
+    font-weight: 700;
+    color: white;
+    border: none;
+}
+.newsletterbutton:hover{
+    color: black;
+    background-color: #09A15C;
+}
+.ending{
+    font-weight: 550;
+    margin:30px auto;
 }
